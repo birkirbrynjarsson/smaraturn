@@ -1,0 +1,3 @@
+[submodule "pickledb"]
+	path = pickledb
+	url = https://github.com/olivierlemoal/pickledb
