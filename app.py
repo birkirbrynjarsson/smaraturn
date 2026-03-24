@@ -7,7 +7,7 @@ import os
 
 from apscheduler.schedulers.background import BackgroundScheduler
 from flask import Flask, jsonify, request
-from flask_restplus import abort, Api, Resource, reqparse, inputs
+from flask_restx import abort, Api, Resource, reqparse, inputs
 
 from pickledb import pickledb
 
