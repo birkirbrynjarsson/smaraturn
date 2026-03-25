@@ -189,8 +189,6 @@ docker build -t smaraturn .
 docker run --rm -p 5000:5000 smaraturn
 ```
 
-Note: [Dockerfile](Dockerfile) currently uses Python 3.7.1, while [Pipfile](Pipfile) requires 3.12 and lockfile packages target modern Python versions. Update the base image to a compatible Python (for example `python:3.12-slim`) before production use.
-
 ## Operational Notes and Caveats
 
 - `attachments/` is created on-demand by [getmail.py](getmail.py).
